@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gate defaults to Unlocked and Open 1`] = `
+<body>
+  <div>
+    <div
+      class="controls panel"
+    >
+      <button
+        class="toggle-btn"
+        data-testid="locked-unlocked"
+        disabled=""
+      >
+        Unlock Gate
+      </button>
+      <button
+        class="toggle-btn"
+        data-testid="open-close"
+        disabled=""
+      >
+        Close Gate
+      </button>
+    </div>
+  </div>
+</body>
+`;
