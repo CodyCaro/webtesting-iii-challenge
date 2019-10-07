@@ -28,6 +28,7 @@ exports[`Gate defaults to Unlocked and Open 1`] = `
       </button>
       <button
         class="toggle-btn"
+        data-testid="open-close"
       >
         Close Gate
       </button>
