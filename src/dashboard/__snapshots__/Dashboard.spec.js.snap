@@ -8,11 +8,13 @@ exports[`Gate defaults to Unlocked and Open 1`] = `
     >
       <div
         class="led green-led"
+        data-testid="locked-unlocked-display"
       >
         Unlocked
       </div>
       <div
         class="led green-led"
+        data-testid="open-close-display"
       >
         Open
       </div>
