@@ -5,7 +5,12 @@ const Controls = props => {
 
   return (
     <div className="controls panel">
-      <button disabled={!closed} onClick={toggleLocked} className="toggle-btn">
+      <button
+        disabled={!closed}
+        onClick={toggleLocked}
+        className="toggle-btn"
+        data-testid="locked-unlocked"
+      >
         {locked ? "Unlock Gate" : "Lock Gate"}
       </button>
       <button

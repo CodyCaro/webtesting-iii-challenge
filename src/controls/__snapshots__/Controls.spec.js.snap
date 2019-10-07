@@ -4,22 +4,6 @@ exports[`Gate defaults to Unlocked and Open 1`] = `
 <body>
   <div>
     <div
-      class="display panel"
-    >
-      <div
-        class="led green-led"
-        data-testid="locked-unlocked-display"
-      >
-        Unlocked
-      </div>
-      <div
-        class="led green-led"
-        data-testid="open-close-display"
-      >
-        Open
-      </div>
-    </div>
-    <div
       class="controls panel"
     >
       <button
@@ -27,11 +11,12 @@ exports[`Gate defaults to Unlocked and Open 1`] = `
         data-testid="locked-unlocked"
         disabled=""
       >
-        Lock Gate
+        Unlock Gate
       </button>
       <button
         class="toggle-btn"
         data-testid="open-close"
+        disabled=""
       >
         Close Gate
       </button>
